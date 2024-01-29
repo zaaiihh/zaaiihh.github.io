@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black; /* Fond noir */
+            color: white; /* Texte blanc pour contraster */
+            font-family: Arial, sans-serif;
+            overflow: hidden; /* Masquer la barre de défilement */
+        }
+        
+        iframe {
+            width: 100%;
+            height: 100vh;
+        }
+
+        form {
+            max-width: 640px;
+            margin: 0 auto;
+            padding: 20px; /* Ajout de marge interne pour un meilleur aspect */
+        }
+
+        input[type="submit"] {
+            display: block;
+            width: auto; /* Ajuster la largeur en fonction du texte */
+            margin-top: 10px;
+            padding: 15px; /* Ajuster la taille du bouton */
+            background-color: #4CAF50; /* Couleur de fond verte */
+            color: white; /* Texte blanc pour contraster */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            float: right; /* Aligner à droite */
+        }
+    </style>
+    <title>Mon Sondage</title>
+    <script>
+        // JavaScript pour rediriger après 10 secondes
+        setTimeout(function() {
+            window.location.href = "https://www.eva.gg/fr-FR/inscription";
+        }, 10000); // 10000 millisecondes équivalent à 10 secondes
+    </script>
+</head>
+<body>
+
+    <form action="https://www.eva.gg/fr-FR/inscription" method="GET" target="_blank">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeoh2_HoFco49OcIwSdh7gUBRydsJdPyAitVnWnz7sdHoo1Xg/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
+        <input type="submit" value="Créer mon compte">
+    </form>
+
+</body>
+</html>
